@@ -1,0 +1,217 @@
+:root {
+  font-family: "Open Sans", sans-serif;
+  --font-family: "Raleway", sans-serif;
+  --grey: #303030;
+  --orange: #ff6c00;
+  --white: #fff;
+  --light-grey: #9da4bd;
+}
+
+/* Global styles */
+
+ul {
+  text-decoration: none;
+  font-style: normal;
+  list-style: none;
+}
+
+li {
+  text-decoration: none;
+  font-style: normal;
+  list-style: none;
+}
+
+/* classes */
+
+.hero-section-logo {
+  display: flex;
+  width: 155px;
+  height: 680px;
+  flex-shrink: 0;
+}
+
+.padding-hero-sec {
+  padding: 32px 31px 40px 55px;
+}
+
+.link-section {
+  justify-content: space-between;
+}
+
+.youtube-instagram-contact {
+  color: var(--grey);
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 2.2px;
+  text-decoration: none;
+}
+
+.youtube-instagram-contact:hover,
+.youtube-instagram-contact:focus {
+  color: var(--orange);
+}
+
+.nav-bar-section {
+  color: var(--white);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  text-decoration: none;
+}
+
+.nav-bar-section:hover,
+.nav-bar-section:focus {
+  color: var(--orange);
+}
+
+/* De inlocuit */
+.background-color {
+  background-color: #303030;
+}
+
+.phone-number:hover,
+.phone-number:focus {
+  color: var(--orange);
+}
+
+.phone-number {
+  color: var(--white);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  text-decoration: none;
+}
+
+.book-a-service-button {
+  color: var(--white);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.08px;
+  text-decoration: none;
+  border-radius: 25px;
+  border: 1px solid #ff6c00;
+  width: 160px;
+  height: 40px;
+  flex-shrink: 0;
+}
+
+.book-a-service-button:hover,
+.book-a-service-button:focus {
+  color: var(--orange);
+}
+
+.paragraf-title {
+  color: rgba(157, 164, 189, 0.6);
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+}
+
+.barber-title {
+  color: var(--white);
+  font-family: Raleway;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 3.6px;
+}
+
+.profesion-paragraf {
+  color: #9da4bd;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 166.667%;
+  letter-spacing: 0.36px;
+}
+
+.button-back {
+  color: rgba(157, 164, 189, 0.6);
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.1px;
+}
+
+.button-next {
+  color: white;
+  text-align: right;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.1px;
+}
+
+.about-images {
+  width: 270px;
+  height: 445px;
+  flex-shrink: 0;
+}
+
+.about-title {
+  color: var(--grey);
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+}
+
+.about-section-title {
+  color: var(--grey);
+  font-family: Raleway;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.1px;
+}
+
+.confidens-to-image {
+  color: #555;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 166.667%;
+  letter-spacing: 0.36px;
+}
+
+.never-rests-par {
+  color: #555;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 185.714%;
+  letter-spacing: 0.28px;
+}
+
+.button-about-section {
+  color: var(--grey);
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.08px;
+  text-transform: uppercase;
+  border-radius: 25px;
+  border: 1px solid #ff6c00;
+  width: 160px;
+  height: 40px;
+  flex-shrink: 0;
+}

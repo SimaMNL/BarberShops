@@ -4,85 +4,121 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BarberShop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700;800&display=swap"
+      rel="stylesheet"
+    />
   </head>
+  <!-- Body -->
   <body>
     <!-- Hero section -->
-    <section>
-      <a href="index.html">
-        <img src="./images/Logo (3).svg" alt="Logo" />
-      </a>
-      <div>
-        <ul>
-          <li>
-            <a href="https://www.youtube.com/" target="_blank" rel="noopener"
-              >Youtube</a
-            >
-          </li>
-          <li>
-            <a href="https://www.instagram.com" target="_blank" rel="noopener"
-              >Instagram</a
-            >
-          </li>
-          <li><img src="./images/divider.svg" alt="Divider" /></li>
-        </ul>
+    <section class="hero-section-logo">
+      <div class="padding-hero-sec">
+        <a href="index.html">
+          <img src="./images/Logo (3).svg" alt="Logo" />
+        </a>
+        <div class="link-section">
+          <ul>
+            <li>
+              <a
+                class="youtube-instagram-contact"
+                href="https://www.youtube.com/"
+                target="_blank"
+                rel="noopener"
+                >Youtube</a
+              >
+            </li>
+            <li>
+              <a
+                class="youtube-instagram-contact"
+                href="https://www.instagram.com"
+                target="_blank"
+                rel="noopener"
+                >Instagram</a
+              >
+            </li>
+            <li><img src="./images/divider.svg" alt="Divider" /></li>
+          </ul>
+        </div>
       </div>
       <!-- Hero Section -->
-      <header>
-        <nav>
-          <ul>
-            <li><a href="">About</a></li>
-            <li><a href="">Services and Prices</a></li>
-            <li><a href="">Barbers</a></li>
-            <li><a href="">Contacts</a></li>
-          </ul>
+      <section class="background-color">
+        <header>
+          <nav>
+            <ul>
+              <li><a class="nav-bar-section" href="">About</a></li>
+              <li>
+                <a class="nav-bar-section" href="">Services and Prices</a>
+              </li>
+              <li><a class="nav-bar-section" href="">Barbers</a></li>
+              <li><a class="nav-bar-section" href="">Contacts</a></li>
+            </ul>
+            <div>
+              <a class="phone-number" href="tel:+380441111111"
+                >+38 044 111 11 11</a
+              >
+              <button class="book-a-service-button" type="button">
+                book a Service
+              </button>
+            </div>
+          </nav>
+        </header>
+        <section>
           <div>
-            <a href="tel:+380441111111">+38 044 111 11 11</a>
-            <button type="button">book a Service</button>
+            <img src="./images/Rectangle 5.svg" alt="linie" />
+            <p class="paragraf-title">A hair salon for men in Kyiv</p>
           </div>
-        </nav>
-      </header>
-      <section>
+          <h1 class="barber-title">BarberShop</h1>
+          <p class="profesion-paragraf">
+            We are experts in trendy men's haircuts <br />
+            We work quickly, carefully, and tastefully.
+          </p>
+        </section>
         <div>
-          <img src="./images/Rectangle 5.svg" alt="linie" />
-          <h3>A hair salon for men in Kyiv</h3>
+          <button class="button-back" type="button">Back</button>
+          <button class="button-next" type="button">Next</button>
         </div>
-        <h1>BarberShop</h1>
-        <p>
-          We are experts in trendy men's haircuts <br />
-          We work quickly, carefully, and tastefully.
-        </p>
       </section>
-      <div>
-        <button type="button">Back</button>
-        <button type="button">Next</button>
-      </div>
     </section>
 
     <!-- About section -->
     <section>
       <div>
-        <img src="./images/Barbershape.svg" alt="BarberShape" />
-        <img src="./images/barbercutting.svg" alt="Barber Cutting" />
+        <img
+          class="about-images"
+          src="./images/Barbershape.svg"
+          alt="BarberShape"
+        />
+        <img
+          class="about-images"
+          src="./images/barbercutting.svg"
+          alt="Barber Cutting"
+        />
       </div>
       <!-- About content -->
       <div>
         <div>
           <img src="./images/Rectangle 5 (1).svg" alt="linie" />
-          <h3>ABOUT</h3>
+          <h3 class="about-title">ABOUT</h3>
         </div>
-        <h2>The Best Barbershop in Your City</h2>
-        <p>
+        <h2 class="about-section-title">The Best Barbershop in Your City</h2>
+        <p class="confidens-to-image">
           If you want to add more confidence to your image, you are definitely
           in the right place.
         </p>
-        <p>
+        <p class="never-rests-par">
           We are a team that never rests on its laurels and yearns for change.
           And once you fall into the hands of our master, you will never be the
           same again. are a team that is always on the same wavelength with
           clients. Therefore, we are always ready to improve everyone who comes
           to us!
         </p>
-        <button type="button">book a service</button>
+        <button class="button-about-section" type="button">
+          book a service
+        </button>
       </div>
     </section>
     <!-- Services and prices -->
@@ -183,6 +219,23 @@
           <h4>Extreme Barber</h4>
         </li>
       </ul>
+    </section>
+    <!-- In Latin, "barba" means "beard" section -->
+    <section>
+      <img src="/images/Rectangle 5.svg" alt="-" />
+      <h3>In Latin, "barba" means "beard"</h3>
+      <div>
+        <img src="/images/man-cutting-hair.jpg" alt="Man-make-haircut" />
+        <img src="/images/man-photo-2.jpg" alt="Face-barba" />
+        <img src="/images/man-photo-3.png" alt="Prosop-cu-apa-rece" />
+        <img src="/images/photo-4.jpg" alt="Face-cu-lama" />
+      </div>
+    </section>
+    <!-- book a service section whit contacts -->
+    <section>
+      <div>
+        <h1>Book a Service</h1>
+      </div>
     </section>
   </body>
 </html>
